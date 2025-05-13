@@ -1,4 +1,4 @@
-// contains-duplicate
+// Leet-Code 217. Contains Duplicate
 function containsDuplicate(numbers: number[]): boolean {
   const seen = new Set<number>();
   for (const num of numbers) {
